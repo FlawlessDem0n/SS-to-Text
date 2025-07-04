@@ -14,7 +14,8 @@ Just upload your image, and the text will appear below.
 
 uploaded_file = st.file_uploader("Upload an image (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
 
-API_KEY = st.secrets["K86806055088957"]
+API_KEY = st.secrets["OCR_SPACE_API_KEY"]
+
 
 
 def ocr_space_file_upload(file, api_key):
