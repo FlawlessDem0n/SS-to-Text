@@ -1,4 +1,14 @@
 # Screenshot-to-Text Tool
+
+A free, open-source tool to extract text from screenshots or images using Streamlit and Tesseract OCR.
+
+## Table of Contents
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Screenshots](#screenshots)
+- [Requirements](#requirements)
+- [License](#license)
+
  HEAD
 **Screenshot-to-Text Tool** is a free, open-source Streamlit app for quickly extracting text from images or screenshots using the powerful [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract).  
 Simply upload an image, and the app will extract the text and display it in an easy-to-copy format.
@@ -13,6 +23,14 @@ Simply upload an image, and the app will extract the text and display it in an e
 - Supports PNG, JPG, and JPEG images
 
 ---
+## Quick Start
+
+```bash
+git clone https://github.com/FlawlessDem0n/SS-to-Text.git
+cd SS-to-Text
+pip install -r requirements.txt
+streamlit run app.py
+
 
 ## 🚀 How to Use
 
