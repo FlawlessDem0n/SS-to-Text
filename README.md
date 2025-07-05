@@ -1,17 +1,18 @@
 # Screenshot-to-Text Tool
 
-A free, open-source tool to extract text from screenshots or images using Streamlit and Tesseract OCR.
+A free, open-source Streamlit app for quickly extracting text from images or screenshots using the powerful [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract).
+
+Simply upload an image, and the app will extract the text and display it in an easy-to-copy format.
+
+---
 
 ## Table of Contents
+
 - [Features](#features)
 - [Quick Start](#quick-start)
-- [Screenshots](#screenshots)
 - [Requirements](#requirements)
+- [Screenshots](#screenshots)
 - [License](#license)
-
- HEAD
-**Screenshot-to-Text Tool** is a free, open-source Streamlit app for quickly extracting text from images or screenshots using the powerful [Tesseract OCR engine](https://github.com/tesseract-ocr/tesseract).  
-Simply upload an image, and the app will extract the text and display it in an easy-to-copy format.
 
 ---
 
@@ -23,6 +24,7 @@ Simply upload an image, and the app will extract the text and display it in an e
 - Supports PNG, JPG, and JPEG images
 
 ---
+
 ## Quick Start
 
 ```bash
@@ -30,24 +32,39 @@ git clone https://github.com/FlawlessDem0n/SS-to-Text.git
 cd SS-to-Text
 pip install -r requirements.txt
 streamlit run app.py
+```
 
+---
 
-## 🚀 How to Use
+## Requirements
 
-### 1. **Install Tesseract OCR**
+- **Python 3.7 or newer**
+- [**Tesseract OCR**](https://github.com/UB-Mannheim/tesseract/wiki) (system install required)
+- **Python packages:** streamlit, pillow, pytesseract
 
-#### Windows:
-- Download the Windows installer from [UB Mannheim’s Tesseract page](https://github.com/UB-Mannheim/tesseract/wiki).
-- Run the installer and follow setup steps.
-- By default, Tesseract is installed at:
+---
 
-# SS-to-Text
-A free, open-source web app to quickly extract text from images or screenshots. Upload any image and get clean, copyable text in seconds. Private, fast, and easy to use. Perfect for students, professionals, or anyone who needs text from pictures.
- 928da98e7d3d8a2d87433aeb8c06e687a09269a8
+## Screenshots
 
-## screenshots
-
+### 1. App Welcome Screen
 ![App Home](screenshots/01_home.png)
+
+### 2. Image Uploaded
 ![Image Upload](screenshots/02_upload.png)
+
+### 3. Extracted Text Result
 ![OCR Result](screenshots/03_results.png)
+
+
+
+
+---
+
+## License
+
+MIT License
+
+---
+
+*Built with ❤️ by *[*FlawlessDem0n*](https://github.com/FlawlessDem0n)
 
