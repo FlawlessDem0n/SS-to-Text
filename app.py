@@ -11,9 +11,9 @@ Welcome! This free tool lets you extract text from screenshots or photos.
 Just upload your image, and the text will appear below.
 """)
 
-# Set the Tesseract path for Windows (change this if you installed elsewhere)
+# Set the Tesseract path for your Windows install
 if os.name == "nt":
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Users\DELL\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 uploaded_file = st.file_uploader("Upload an image (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
 
