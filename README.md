@@ -47,11 +47,7 @@ A free, open-source web app to quickly extract text from images or screenshots. 
 
 ## Screenshots
 
-### 1. App Welcome Screen
-![App Home](screenshots/01_Home.PNG)
+![App Home](screenshots/01_home.png)
+![Image Upload](screenshots/02_upload.png)
+![OCR Result](screenshots/03_results.png)
 
-### 2. Image Uploaded
-![Image Upload](screenshots/02_Upload.PNG)
-
-### 3. Extracted Text Result
-![OCR Result](screenshots/03_Results.PNG)
